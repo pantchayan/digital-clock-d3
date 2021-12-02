@@ -160,6 +160,7 @@ let render = () => {
       .attr("height", (d) => d.height)
       .attr("width", (d) => d.width)
       .attr("fill", (d) => d.color)
+      .attr("stroke", (d) => d.color)
       .attr("x", (d) => d.x)
       .attr("y", (d) => d.y)
       .attr("margin", (d) => d.margin);
